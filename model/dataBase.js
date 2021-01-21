@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
-const dotenv = require('dotenv');
-dotenv.config();
+// const dotenv = require('dotenv');
+// dotenv.config();
 
-const url = process.env.DB_URL
+const url = 'mongodb://localhost:27017/test'
 
 const db = {}
 db.mongoose = mongoose;
